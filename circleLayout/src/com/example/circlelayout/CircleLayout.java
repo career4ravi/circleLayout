@@ -10,7 +10,10 @@ import android.view.View;
 import android.view.View.OnClickListener;
 import android.view.ViewGroup;
 import android.widget.ImageButton;
-
+/**
+ * @author Ravi
+ *
+ */
 public class CircleLayout extends ViewGroup implements OnClickListener, BuddieChangeListener{
 	
 	

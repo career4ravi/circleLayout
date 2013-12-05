@@ -9,7 +9,10 @@ import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.ImageButton;
 import android.widget.ImageView;
-
+/**
+ * @author Ravi
+ *
+ */
 public class MainActivity extends Activity {
 
 	private static String TAG="MainActivity";
@@ -59,7 +62,7 @@ ImageButton im = (ImageButton)findViewById(R.id.imageButton1);
 		
 		
 		
-		new Thread(mSomeThread).start();
+		//new Thread(mSomeThread).start();
 	}
 
 	@Override
